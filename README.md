@@ -1,2 +1,2 @@
-# storytelling_with_data_matlab
+# Storytelling With Data MATLAB
 MATLAB graphics preferences based on Storytelling With Data by Cole Nussbaumer Knaflic.
