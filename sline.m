@@ -1,7 +1,10 @@
-function [outputArg1,outputArg2] = eline(inputArg1,inputArg2)
-%ELINE Summary of this function goes here
-%   Detailed explanation goes here
-outputArg1 = inputArg1;
-outputArg2 = inputArg2;
+function lh = sline( axh )
+
+min_val = min( axh.XLim( 1 ), axh.YLim( 1 ) );
+max_val = max( axh.XLim( 2 ), axh.YLim( 2 ) );
+range = [ min_val max_val ];
+
+lh = line( axh, range, range );
+
 end
 

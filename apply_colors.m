@@ -18,6 +18,7 @@ if g_count == 1
     children.CData( emph_inds ) = colors.BLUE;
     children.CData( ~emph_inds ) = colors.LIGHT_GRAY;
 elseif g_count > 1
+    children = flip( children );
     for i = 1 : numel( emph_inds )
         
         ei = emph_inds( i );
